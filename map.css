@@ -1,0 +1,119 @@
+h1 {
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 6vh;
+  position: relative;
+  text-align: center;
+  top: 1vh;
+}
+
+#test {
+	height: 80vh;
+  padding-top: 100%;
+}
+
+img{
+	
+  resize: vertical;
+  width: 50vw;
+  height: 100%;
+  display: inline-block;
+  left: 5vw;
+  float: left;
+}
+
+.btn-group .btn {
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  right: 10vw;
+  height: 80vh;
+  width: 30vw;
+}
+
+.btn-group .btn:hover {
+  background-position: center top;
+  transition-duration: 1s;
+}
+
+.btn-group .breach {
+  background-image: url("breach.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 1s;
+  height: 7vh;
+}
+
+.btn-group .brimstone {
+  background-image: url("brimstone.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 1s;
+  height: 7vh;
+}
+
+#background {
+  height: 100vh;
+  width: 100vw;
+  background-image: black;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  /* Firefox */
+  -webkit-animation: fadein 4s;
+  /* Safari and Chrome */
+  -o-animation: fadein 4s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
