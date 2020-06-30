@@ -38,47 +38,47 @@ img {
 }
 
 .btn-group .breach {
-  background-image: url("breach.png");
+  background-image: url("images/breach.png");
 }
 
 .btn-group .brimstone {
-  background-image: url("brimstone.jpg");
+  background-image: url("images/brimstone.jpg");
 }
 
 .btn-group .cypher {
-  background-image: url("cypher.jpg");
+  background-image: url("images/cypher.jpg");
 }
 
 .btn-group .jett {
-  background-image: url("jett.jpg");
+  background-image: url("images/jett.jpg");
 }
 
 .btn-group .omen {
-  background-image: url("omen.png");
+  background-image: url("images/omen.png");
 }
 
 .btn-group .phoenix {
-  background-image: url("phoenix.png");
+  background-image: url("images/phoenix.png");
 }
 
 .btn-group .raze {
-  background-image: url("raze.jpg");
+  background-image: url("images/raze.jpg");
 }
 
 .btn-group .reyna {
-  background-image: url("reyna.jpg");
+  background-image: url("images/reyna.jpg");
 }
 
 .btn-group .sage {
-  background-image: url("sage.png");
+  background-image: url("images/sage.png");
 }
 
 .btn-group .sova {
-  background-image: url("sova.png");
+  background-image: url("images/sova.png");
 }
 
 .btn-group .viper {
-  background-image: url("viper.png");
+  background-image: url("images/viper.png");
 }
 
 #background {

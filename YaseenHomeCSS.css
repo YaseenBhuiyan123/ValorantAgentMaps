@@ -65,7 +65,7 @@ body {
 }
 
 .bind:hover {
-  background-image: url('bind.jfif');
+  background-image: url('images/bind.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,7 @@ body {
 }
 
 .split:hover {
-  background-image: url('split.jfif');
+  background-image: url('images/split.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ body {
 }
 
 .haven:hover {
-  background-image: url('haven.jfif');
+  background-image: url('images/haven.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,7 +89,7 @@ body {
 }
 
 .ascent:hover {
-  background-image: url('ascent.jfif');
+  background-image: url('images/ascent.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +99,7 @@ body {
 #background {
   height: 100vh;
   width: 100vw;
-  background-image: url("viper_background.png");
+  background-image: url("images/viper_background.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
