@@ -1,5 +1,5 @@
 h1 {
-  color: black;
+  color: white;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 6vh;
   position: relative;
@@ -7,29 +7,31 @@ h1 {
   top: 1vh;
 }
 
-#test {
-	height: 80vh;
-  padding-top: 100%;
+body {
+  background-color: black;
 }
 
 img{
-	
-  resize: vertical;
-  width: 50vw;
-  height: 100%;
-  display: inline-block;
+  width: 65vw;
+  height: 70vh;
   left: 5vw;
+  object-fit: contain;
   float: left;
+  transition-duration: 1s;
 }
 
 .btn-group .btn {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 7vh;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   display: block;
   right: 10vw;
-  height: 80vh;
   width: 30vw;
+  transition-duration: 1s;
 }
 
 .btn-group .btn:hover {
@@ -39,20 +41,46 @@ img{
 
 .btn-group .breach {
   background-image: url("breach.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition-duration: 1s;
-  height: 7vh;
 }
 
 .btn-group .brimstone {
   background-image: url("brimstone.jpg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition-duration: 1s;
-  height: 7vh;
+}
+
+.btn-group .cypher {
+  background-image: url("cypher.jpg");
+}
+
+.btn-group .jett {
+  background-image: url("jett.jpg");
+}
+
+.btn-group .omen {
+  background-image: url("omen.png");
+}
+
+.btn-group .phoenix {
+  background-image: url("phoenix.png");
+}
+
+.btn-group .raze {
+  background-image: url("raze.jpg");
+}
+
+.btn-group .reyna {
+  background-image: url("reyna.jpg");
+}
+
+.btn-group .sage {
+  background-image: url("sage.png");
+}
+
+.btn-group .sova {
+  background-image: url("sova.png");
+}
+
+.btn-group .viper {
+  background-image: url("viper.png");
 }
 
 #background {
