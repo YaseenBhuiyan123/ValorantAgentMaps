@@ -12,9 +12,8 @@ body {
 }
 
 img{
-  width: 65vw;
-  height: 70vh;
-  left: 5vw;
+  width: 65%;
+  height: 70%;
   object-fit: contain;
   float: left;
   transition-duration: 1s;
@@ -29,7 +28,6 @@ img{
   border-radius: 10px;
   cursor: pointer;
   display: block;
-  right: 10vw;
   width: 30vw;
   transition-duration: 1s;
 }

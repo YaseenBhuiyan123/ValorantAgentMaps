@@ -65,17 +65,15 @@ body {
 }
 
 .bind:hover {
-  background-image: url('ESCHrc3W4AA_cbN.jfif');
+  background-image: url('bind.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition-duration: 1s;
-  /*height: 25vh;
-  width: 40vw;*/
 }
 
 .split:hover {
-  background-image: url('ESCHtduXkAAv3kA.jfif');
+  background-image: url('split.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +81,7 @@ body {
 }
 
 .haven:hover {
-  background-image: url('ESCHuaSWAAIRNcY.jfif');
+  background-image: url('haven.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +89,7 @@ body {
 }
 
 .ascent:hover {
-  background-image: url('ESCHsiIXkAAwqx6.jfif');
+  background-image: url('ascent.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +99,7 @@ body {
 #background {
   height: 100vh;
   width: 100vw;
-  background-image: url("UdHu05p.png");
+  background-image: url("viper_background.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,16 +110,6 @@ body {
   -webkit-animation: fadein 4s;
   /* Safari and Chrome */
   -o-animation: fadein 4s;
-  /* Opera */
-}
-
-#test1 {
-  animation: fadein 3s;
-  -moz-animation: fadein 3s;
-  /* Firefox */
-  -webkit-animation: fadein 3s;
-  /* Safari and Chrome */
-  -o-animation: fadein 3s;
   /* Opera */
 }
 
