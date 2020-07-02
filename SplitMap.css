@@ -1,10 +1,10 @@
 h1 {
   color: white;
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 6vh;
+  font-size: 7vh;
   position: relative;
-  text-align: center;
   top: 1vh;
+  text-align: center;
 }
 
 body {
@@ -12,14 +12,27 @@ body {
 }
 
 img {
-  width: 65vw;
-  height: 70vh;
+	position: fixed;
+	top: 20vh;
+	left: 1vw;
+  /* border: 1px solid white; */
+  width: 67vw;
+  height: 77vh;
   object-fit: contain;
-  float: left;
   transition-duration: 1s;
 }
 
-.btn-group .btn {
+#btn-group {
+  /* border: 1px solid white; */
+  position: fixed;
+  top: 20vh;
+  right: 1vw;
+  height: 77vh;
+  width: 30vw;
+  text-align: center;
+}
+
+.btn {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -29,55 +42,55 @@ img {
   cursor: pointer;
   display: block;
   width: 30vw;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
-.btn-group .btn:hover {
+.btn:hover {
   background-position: center top;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
-.btn-group .breach {
+.breach {
   background-image: url("images/breach.png");
 }
 
-.btn-group .brimstone {
+.brimstone {
   background-image: url("images/brimstone.jpg");
 }
 
-.btn-group .cypher {
+.cypher {
   background-image: url("images/cypher.jpg");
 }
 
-.btn-group .jett {
+.jett {
   background-image: url("images/jett.jpg");
 }
 
-.btn-group .omen {
+.omen {
   background-image: url("images/omen.png");
 }
 
-.btn-group .phoenix {
+.phoenix {
   background-image: url("images/phoenix.png");
 }
 
-.btn-group .raze {
+.raze {
   background-image: url("images/raze.jpg");
 }
 
-.btn-group .reyna {
+.reyna {
   background-image: url("images/reyna.jpg");
 }
 
-.btn-group .sage {
+.sage {
   background-image: url("images/sage.png");
 }
 
-.btn-group .sova {
+.sova {
   background-image: url("images/sova.png");
 }
 
-.btn-group .viper {
+.viper {
   background-image: url("images/viper.png");
 }
 
