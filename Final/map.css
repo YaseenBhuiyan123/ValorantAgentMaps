@@ -1,0 +1,145 @@
+h1 {
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 6vh;
+  position: relative;
+  text-align: center;
+  top: 1vh;
+}
+
+body {
+  background-color: black;
+}
+
+img{
+  width: 65%;
+  height: 70%;
+  object-fit: contain;
+  float: left;
+  transition-duration: 1s;
+}
+
+.btn-group .btn {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 7vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  width: 30vw;
+  transition-duration: 1s;
+}
+
+.btn-group .btn:hover {
+  background-position: center top;
+  transition-duration: 1s;
+}
+
+.btn-group .breach {
+  background-image: url("breach.png");
+}
+
+.btn-group .brimstone {
+  background-image: url("brimstone.jpg");
+}
+
+.btn-group .cypher {
+  background-image: url("cypher.jpg");
+}
+
+.btn-group .jett {
+  background-image: url("jett.jpg");
+}
+
+.btn-group .omen {
+  background-image: url("omen.png");
+}
+
+.btn-group .phoenix {
+  background-image: url("phoenix.png");
+}
+
+.btn-group .raze {
+  background-image: url("raze.jpg");
+}
+
+.btn-group .reyna {
+  background-image: url("reyna.jpg");
+}
+
+.btn-group .sage {
+  background-image: url("sage.png");
+}
+
+.btn-group .sova {
+  background-image: url("sova.png");
+}
+
+.btn-group .viper {
+  background-image: url("viper.png");
+}
+
+#background {
+  height: 100vh;
+  width: 100vw;
+  background-image: black;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  /* Firefox */
+  -webkit-animation: fadein 4s;
+  /* Safari and Chrome */
+  -o-animation: fadein 4s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

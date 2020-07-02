@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<link href="map.css" rel="stylesheet" type="text/css">
+</head>
+
+<div id="background">
+
+	<body>
+
+	<h1>Split</h1>
+
+	<img src="split map.png"></img>
+	<img src="point1.png"; id="breachMark"; style="width:3vw; height:3vh; position:absolute; top:50vh; width:50vw;"></img>
+	<div class="btn-group">
+
+		<button class="btn breach"; onclick="breachFunc()"></button>
+		<button class="btn brimstone"></button>
+		<button class="btn cypher"></button>
+		<button class="btn jett"></button>
+		<button class="btn omen"></button>
+		<button class="btn phoenix"></button>
+		<button class="btn raze"></button>
+		<button class="btn reyna"></button>
+		<button class="btn sage"></button>
+		<button class="btn sova"></button>
+		<button class="btn viper"></button>
+  
+	</div>
+	
+	<script>
+	function breachFunc() {
+		var x = document.getElementById("breachMark");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+	</script>
+	
+</div>
+
+</body>
+
+</html>
