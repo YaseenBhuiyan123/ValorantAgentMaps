@@ -11,7 +11,10 @@
 	<h1>Split</h1>
 
 	<img src="split map.png"></img>
-	<img src="point1.png"; id="breachMark"; style="width:3vw; height:3vh; position:absolute; top:50vh; width:50vw;"></img>
+	<img src="point1.png"; id="breach1"; style="width:3vw; height:3vh; position:absolute; top:50vh; width:50vw;"></img>
+	<img src="point1.png"; id="breach2"; style="width:3vw; height:3vh; position:absolute; top:30vh; width:40vw;"></img>
+	<img src="point1.png"; id="breach3"; style="width:3vw; height:3vh; position:absolute; top:70vh; width:70vw;"></img>
+	
 	<div class="btn-group">
 
 		<button class="btn breach"; onclick="breachFunc()"></button>
@@ -30,11 +33,23 @@
 	
 	<script>
 	function breachFunc() {
-		var x = document.getElementById("breachMark");
+		var x = document.getElementById("breach1");
+		var y = document.getElementById("breach2");
+		var z = document.getElementById("breach3");
 		if (x.style.display === "none") {
 			x.style.display = "block";
 		} else {
 			x.style.display = "none";
+		}
+		if (y.style.display === "none") {
+			y.style.display = "block";
+		} else {
+			y.style.display = "none";
+		}
+		if (z.style.display === "none") {
+			z.style.display = "block";
+		} else {
+			z.style.display = "none";
 		}
 	}
 	</script>
