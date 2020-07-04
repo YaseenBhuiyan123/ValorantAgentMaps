@@ -51,7 +51,7 @@ body {
 .haven {
   background: black;
   position: fixed;
-  bottom: 20vh;
+  bottom: 15vh;
   left: 10vw;
   transition-duration: 1s;
 }
@@ -59,7 +59,7 @@ body {
 .ascent {
   background: black;
   position: fixed;
-  bottom: 20vh;
+  bottom: 15vh;
   right: 10vw;
   transition-duration: 1s;
 }

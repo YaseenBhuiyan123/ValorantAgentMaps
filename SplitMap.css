@@ -12,21 +12,21 @@ body {
 }
 
 img {
-	position: fixed;
-	top: 20vh;
-	left: 1vw;
-  /* border: 1px solid white; */
-  width: 67vw;
+  position: fixed;
+  top: 20vh;
+  left: 10vw;
+  /*border: 1px solid white;*/
+  width: 40vw;
   height: 77vh;
   object-fit: contain;
   transition-duration: 1s;
 }
 
 #btn-group {
-  /* border: 1px solid white; */
+  /*border: 1px solid white;*/
   position: fixed;
   top: 20vh;
-  right: 1vw;
+  right: 10vw;
   height: 77vh;
   width: 30vw;
   text-align: center;
@@ -43,6 +43,7 @@ img {
   display: block;
   width: 30vw;
   transition-duration: 0.5s;
+  margin: auto;
 }
 
 .btn:hover {
