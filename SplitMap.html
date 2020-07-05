@@ -1,0 +1,59 @@
+<html>
+
+<head>
+<link href="SplitMap.css" rel="stylesheet" type="text/css">
+</head>
+
+<div id="background">
+
+	<body>
+
+	<h1>Split</h1>
+
+	<img src="images/split map.png"></img>
+	<img src="images/point1.png"; class="marker"; id="breach1"; style="top:40vh; left:30vw; display: none;"></img>
+	<img src="images/point1.png"; class="marker"; id="breach2"; style="top:60vh; left:20vw; display: none;"></img>
+	<img src="images/point1.png"; class="marker"; id="breach3"; style="top:70vh; left:30vw; display: none;"></img>
+
+	<div id="btn-group">
+		<button class="btn breach"; onclick="breachFunc()"></button>
+		<button class="btn brimstone"></button>
+		<button class="btn cypher"></button>
+		<button class="btn jett"></button>
+		<button class="btn omen"></button>
+		<button class="btn phoenix"></button>
+		<button class="btn raze"></button>
+		<button class="btn reyna"></button>
+		<button class="btn sage"></button>
+		<button class="btn sova"></button>
+		<button class="btn viper"></button>
+	</div>
+
+<script>
+	function breachFunc() {
+		var x = document.getElementById("breach1");
+		var y = document.getElementById("breach2");
+		var z = document.getElementById("breach3");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+		if (y.style.display === "none") {
+			y.style.display = "block";
+		} else {
+			y.style.display = "none";
+		}
+		if (z.style.display === "none") {
+			z.style.display = "block";
+		} else {
+			z.style.display = "none";
+		}
+	}
+	</script>
+
+</div>
+
+</body>
+
+</html>
