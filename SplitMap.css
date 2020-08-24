@@ -42,7 +42,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 7vh;
+  height: 9vh;
   border: 1px solid white;
   border-radius: 10px;
   cursor: pointer;
@@ -57,10 +57,6 @@ img {
   transition-duration: 0.5s;
 }
 
-.breach {
-  background-image: url("images/breach.png");
-}
-
 .brimstone {
   background-image: url("images/brimstone.jpg");
 }
@@ -69,24 +65,16 @@ img {
   background-image: url("images/cypher.jpg");
 }
 
-.jett {
-  background-image: url("images/jett.jpg");
+.killjoy {
+  background-image: url("images/killjoy.jpg");
 }
 
 .omen {
   background-image: url("images/omen.png");
 }
 
-.phoenix {
-  background-image: url("images/phoenix.png");
-}
-
 .raze {
   background-image: url("images/raze.jpg");
-}
-
-.reyna {
-  background-image: url("images/reyna.jpg");
 }
 
 .sage {
