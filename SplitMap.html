@@ -1,12 +1,11 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 <link href="SplitMap.css" rel="stylesheet" type="text/css">
 </head>
 
-<div id="background">
-
-	<body>
+<body id="background">
 
 	<h1>Split</h1>
 
@@ -20,8 +19,10 @@
 	<img src="images/cypherMark.png"; class="marker"; id="cypher2"; style="top:74vh; left:24vw; display: none;"></img>
 	<img src="images/cypherMark.png"; class="marker"; id="cypher3"; style="top:74vh; left:32vw; display: none;"></img>
 
-	<!-- need killjoy marker image-->
+	<!-- need killjoy marker image -->
 	<img src="images/killjoyMark.png"; class="marker"; id="killjoy1"; style="top:80vh; left:20vw; display: none;"></img>
+	<img src="images/killjoyMark.png"; class="marker"; id="killjoy2"; style="top:90vh; left:30vw; display: none;"></img>
+	<img src="images/killjoyMark.png"; class="marker"; id="killjoy3"; style="top:100vh; left:40vw; display: none;"></img>
 
 	<img src="images/omenMark.png"; class="marker"; id="omen1"; style="top:41vh; left:15vw; display: none;"></img>
 	<img src="images/omenMark.png"; class="marker"; id="omen2"; style="top:74vh; left:16vw; display: none;"></img>
@@ -39,7 +40,6 @@
 	<img src="images/viperMark.png"; class="marker"; id="viper2"; style="top:62vh; left:34vw; display: none;"></img>
 	<img src="images/viperMark.png"; class="marker"; id="viper3"; style="top:74vh; left:21vw; display: none;"></img>
 
-
 	<div id="btn-group">
 		<button class="btn brimstone"; onclick="brimFunc()"></button>
 		<button class="btn cypher"; onclick="cypherFunc()"></button>
@@ -51,7 +51,6 @@
 	</div>
 
 <script>
-
 	function brimFunc() {
 		var brimMark1 = document.getElementById("brim1");
 		var brimMark2 = document.getElementById("brim2");
@@ -198,9 +197,7 @@
 			vipMark3.style.display = "none";
 		}
 	}
-	</script>
-
-</div>
+</script>
 
 </body>
 
