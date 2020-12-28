@@ -25,7 +25,7 @@ img {
 .marker {
   width:5vw;
   height:5vh;
-  position:absolute; 
+  position:absolute;
 }
 
 #btn-group {
@@ -75,10 +75,6 @@ img {
 
 .raze {
   background-image: url("images/raze.jpg");
-}
-
-.sage {
-  background-image: url("images/sage.png");
 }
 
 .sova {
