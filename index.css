@@ -102,7 +102,7 @@ body {
   background-image: url("images/viper-background.png");
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: fixed;
   animation: fadein 4s;
   -moz-animation: fadein 4s;
