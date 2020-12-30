@@ -1,50 +1,57 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-<link href="SplitMap.css" rel="stylesheet" type="text/css">
+	<title>Haven</title>
+	<link href="Maps.css" rel="stylesheet" type="text/css">
 </head>
 
-<div id="background">
-
-	<body>
+<body id="background">
 
 	<h1>Haven</h1>
 
 	<img src="images/haven map.png"></img>
+
 	<img src="images/brimMark.png"; class="marker"; id="brim1"; style="top:60vh; left:33vw; display: none;"></img>
 	<img src="images/brimMark.png"; class="marker"; id="brim2"; style="top:80vh; left:29vw; display: none;"></img>
 	<img src="images/brimMark.png"; class="marker"; id="brim3"; style="top:26vh; left:16vw; display: none;"></img>
+
 	<img src="images/cypherMark.png"; class="marker"; id="cypher1"; style="top:87vh; left:25vw; display: none;"></img>
 	<img src="images/cypherMark.png"; class="marker"; id="cypher2"; style="top:74vh; left:24vw; display: none;"></img>
 	<img src="images/cypherMark.png"; class="marker"; id="cypher3"; style="top:74vh; left:32vw; display: none;"></img>
+
+	<!-- need killjoy marker image -->
+	<img src="images/killjoyMark.png"; class="marker"; id="killjoy1"; style="top:80vh; left:20vw; display: none;"></img>
+	<img src="images/killjoyMark.png"; class="marker"; id="killjoy2"; style="top:90vh; left:30vw; display: none;"></img>
+	<img src="images/killjoyMark.png"; class="marker"; id="killjoy3"; style="top:70vh; left:40vw; display: none;"></img>
+
 	<img src="images/omenMark.png"; class="marker"; id="omen1"; style="top:41vh; left:15vw; display: none;"></img>
 	<img src="images/omenMark.png"; class="marker"; id="omen2"; style="top:74vh; left:16vw; display: none;"></img>
 	<img src="images/omenMark.png"; class="marker"; id="omen3"; style="top:82vh; left:25vw; display: none;"></img>
+
 	<img src="images/razeMark.png"; class="marker"; id="raze1"; style="top:51vh; left:23vw; display: none;"></img>
 	<img src="images/razeMark.png"; class="marker"; id="raze2"; style="top:23vh; left:28vw; display: none;"></img>
 	<img src="images/razeMark.png"; class="marker"; id="raze3"; style="top:74vh; left:24vw; display: none;"></img>
-	<img src="images/sageMark.png"; class="marker"; id="sage1"; style="top:59vh; left:26vw; display: none;"></img>
-	<img src="images/sageMark.png"; class="marker"; id="sage2"; style="top:64vh; left:32vw; display: none;"></img>
-	<img src="images/sageMark.png"; class="marker"; id="sage3"; style="top:74vh; left:21vw; display: none;"></img>
+
 	<img src="images/sovaMark.png"; class="marker"; id="sova1"; style="top:33vh; left:21vw; display: none;"></img>
 	<img src="images/sovaMark.png"; class="marker"; id="sova2"; style="top:71vh; left:15vw; display: none;"></img>
 	<img src="images/sovaMark.png"; class="marker"; id="sova3"; style="top:55vh; left:24vw; display: none;"></img>
+
 	<img src="images/viperMark.png"; class="marker"; id="viper1"; style="top:55vh; left:27vw; display: none;"></img>
 	<img src="images/viperMark.png"; class="marker"; id="viper2"; style="top:62vh; left:34vw; display: none;"></img>
 	<img src="images/viperMark.png"; class="marker"; id="viper3"; style="top:74vh; left:21vw; display: none;"></img>
-	
+
 	<div id="btn-group">
 		<button class="btn brimstone"; onclick="brimFunc()"></button>
 		<button class="btn cypher"; onclick="cypherFunc()"></button>
+		<button class="btn killjoy"; onclick="killjoyFunc()"></button>
 		<button class="btn omen"; onclick="omenFunc()"></button>
 		<button class="btn raze"; onclick="razeFunc()"></button>
-		<button class="btn sage"; onclick="sageFunc()"></button>
 		<button class="btn sova"; onclick="sovaFunc()"></button>
 		<button class="btn viper"; onclick="viperFunc()"></button>
 	</div>
 
 <script>
-	
 	function brimFunc() {
 		var brimMark1 = document.getElementById("brim1");
 		var brimMark2 = document.getElementById("brim2");
@@ -65,7 +72,7 @@
 			brimMark3.style.display = "none";
 		}
 	}
-		
+
 	function cypherFunc() {
 		var cyMark1 = document.getElementById("cypher1");
 		var cyMark2 = document.getElementById("cypher2");
@@ -86,7 +93,28 @@
 			cyMark3.style.display = "none";
 		}
 	}
-	
+
+	function killjoyFunc() {
+		var killjoyMark1 = document.getElementById("killjoy1");
+		var killjoyMark2 = document.getElementById("killjoy2");
+		var killjoyMark3 = document.getElementById("killjoy3");
+		if (killjoyMark1.style.display === "none") {
+			killjoyMark1.style.display = "block";
+		} else {
+			killjoyMark1.style.display = "none";
+		}
+		if (killjoyMark2.style.display === "none") {
+			killjoyMark2.style.display = "block";
+		} else {
+			killjoyMark2.style.display = "none";
+		}
+		if (killjoyMark3.style.display === "none") {
+			killjoyMark3.style.display = "block";
+		} else {
+			killjoyMark3.style.display = "none";
+		}
+	}
+
 	function omenFunc() {
 		var omenMark1 = document.getElementById("omen1");
 		var omenMark2 = document.getElementById("omen2");
@@ -107,7 +135,7 @@
 			omenMark3.style.display = "none";
 		}
 	}
-	
+
 	function razeFunc() {
 		var razeMark1 = document.getElementById("raze1");
 		var razeMark2 = document.getElementById("raze2");
@@ -128,28 +156,7 @@
 			razeMark3.style.display = "none";
 		}
 	}
-	
-	function sageFunc() {
-		var sageMark1 = document.getElementById("sage1");
-		var sageMark2 = document.getElementById("sage2");
-		var sageMark3 = document.getElementById("sage3");
-		if (sageMark1.style.display === "none") {
-			sageMark1.style.display = "block";
-		} else {
-			sageMark1.style.display = "none";
-		}
-		if (sageMark2.style.display === "none") {
-			sageMark2.style.display = "block";
-		} else {
-			sageMark2.style.display = "none";
-		}
-		if (sageMark3.style.display === "none") {
-			sageMark3.style.display = "block";
-		} else {
-			sageMark3.style.display = "none";
-		}
-	}
-	
+
 	function sovaFunc() {
 		var sovaMark1 = document.getElementById("sova1");
 		var sovaMark2 = document.getElementById("sova2");
@@ -170,7 +177,7 @@
 			sovaMark3.style.display = "none";
 		}
 	}
-	
+
 	function viperFunc() {
 		var vipMark1 = document.getElementById("viper1");
 		var vipMark2 = document.getElementById("viper2");
@@ -191,9 +198,7 @@
 			vipMark3.style.display = "none";
 		}
 	}
-	</script>
-
-</div>
+</script>
 
 </body>
 
